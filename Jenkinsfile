@@ -12,7 +12,7 @@ pipeline {
 		
 	    stage("Run Tests") {
 		    steps{
-			     bat "dotnet test ElibraryManagement/DemoTest/UnitTest1.cs "
+			     bat "dotnet test ElibraryManagement/DemoTest/DemoTest.csproj"
 		    }
 	}   }
 }
