@@ -1,8 +1,11 @@
 pipeline {
     agent any
+	trigger{
+		pollSCM("* * * * *")
+	}
     stage("Build") {
-           stage("Test API") {
-            steps {
-		  sh "dotnet test ElibraryManagement/UnitTestElibraryManagement/UnitTestElibraryManagement.csproj"
-            }
+	    steps{
+		    echo "Running"
+	    }
 }
+	
