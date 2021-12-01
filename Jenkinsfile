@@ -4,6 +4,12 @@ pipeline {
 		pollSCM("* * * * *")
 	}
 	stages{
+		stage("Check") {
+			steps{
+				echo "yeee"
+			}
+		}
+		
 	    stage("Run Tests") {
 		    steps{
 			     sh "dotnet test ElibraryManagement/DemoTest/DemoTest.csproj"
