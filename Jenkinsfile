@@ -4,9 +4,9 @@ pipeline {
 		pollSCM("* * * * *")
 	}
 	stages{
-	    stage("Build") {
+	    stage("Run Tests") {
 		    steps{
-			    echo "Running"
+			     sh "dotnet test ElibraryManagement/UnitTestElibraryManagement/UnitTestElibraryManagement.csproj"
 		    }
 	}   }
 }
