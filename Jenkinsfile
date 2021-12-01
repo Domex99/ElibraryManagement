@@ -18,7 +18,7 @@ pipeline {
 		
 	     stage("Solution") {
 		    steps{
-			     bat "dotnet build ElibraryManagement/ElibraryManagement.sln"
+			     bat "dotnet build ElibraryManagement/WebApplication3/ElibraryManagement.csproj"
 		    }
 	    }
 		    
