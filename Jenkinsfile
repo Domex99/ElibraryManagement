@@ -6,7 +6,7 @@ pipeline {
 	stages{
 	    stage("Run Tests") {
 		    steps{
-			     sh "dotnet test ElibraryManagement/UnitTestElibraryManagement/UnitTestElibraryManagement.csproj"
+			     sh "dotnet test ElibraryManagement/DemoTest/DemoTest.csproj"
 		    }
 	}   }
 }
