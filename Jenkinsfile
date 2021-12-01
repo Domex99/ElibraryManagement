@@ -15,6 +15,12 @@ pipeline {
 			     bat "dotnet test ElibraryManagement/DemoTest/DemoTest.csproj"
 		    }
 	    }
+		
+	     stage("Solution") {
+		    steps{
+			     bat "dotnet build ElibraryManagement/ElibraryManagement.sln"
+		    }
+	    }
 		    
 		    
        }           
