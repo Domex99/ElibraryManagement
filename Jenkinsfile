@@ -8,6 +8,6 @@ pipeline {
 		    steps{
 			    echo "Running"
 		    }
-	    }	}
+	}   }
 }
 	
