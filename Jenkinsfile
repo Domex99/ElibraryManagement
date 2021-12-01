@@ -1,7 +1,8 @@
 pipeline {
     agent any
     stage("Build") {
+           stage("Test API") {
             steps {
-				sh "dotnet build ElibraryManagement/ElibraryManagement.sln"
+		  sh "dotnet test ElibraryManagement/UnitTestElibraryManagement/UnitTestElibraryManagement.csproj"
             }
 }
