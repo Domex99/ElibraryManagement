@@ -9,6 +9,11 @@ pipeline {
 				echo "yeee"
 			}
 		}
+		 stage("Solution") {
+		    steps{
+			     bat "dotnet build ElibraryManagement/WebApplication3/adminauthormanagement.aspx"
+		    }
+	    }
 		
 	    stage("Run Tests") {
 		    steps{
@@ -16,11 +21,7 @@ pipeline {
 		    }
 	    }
 		
-	     stage("Solution") {
-		    steps{
-			     bat "dotnet build ElibraryManagement/WebApplication3/adminauthormanagement.aspx"
-		    }
-	    }
+	    
 		    
 		    
        }           
