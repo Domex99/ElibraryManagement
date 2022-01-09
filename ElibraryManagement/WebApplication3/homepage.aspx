@@ -24,7 +24,7 @@
                     <center>
                      <img width="150px" src="imgs/digital-inventory.png"/>
                      <h4>Digital Book Inventory</h4>
-                    <p class="text-justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                    <p class="text-justify">Missing or mislabeled books have a direct impact on the quality of library services. Maintaining the stacks through inventories and shelf reading can mitigate staff time lost searching for missing or mislabeled items.</p>
                     </center>
                 </div>
 
@@ -32,7 +32,7 @@
                     <center>
                      <img width="150px" src="imgs/search-online.png"/>
                      <h4>Search Books</h4>
-                    <p class="text-justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                    <p class="text-justify">Search books by title, author and year of release. reprehenderit</p>
                     </center>
                 </div>
 
